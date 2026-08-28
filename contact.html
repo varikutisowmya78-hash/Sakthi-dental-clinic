@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+        content="Book an appointment with Sakthi Dental Clinic in Hosur.">
+
+    <title>Contact | Sakthi Dental Clinic</title>
+
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Responsive CSS -->
+    <link rel="stylesheet" href="css/responsive.css">
+    <script src="https://www.google.com/recaptcha/api.js?render=6LckVZMtAAAAAL_8QxUOaahJgqH5E-OD8LH0BYov"></script>
+
+</head>
+
+
+<body>
+
+
+    <!-- =========================================
+         HEADER
+    ========================================== -->
+
+    <header>
+
+        <nav class="navbar">
+
+            <div class="logo">
+
+                <a href="index.html">
+                    Sakthi Dental Clinic
+                </a>
+
+            </div>
+
+
+            <ul class="nav-links">
+
+                <li>
+                    <a href="index.html">
+                        Home
+                    </a>
+                </li>
+
+                <li>
+                    <a href="about.html">
+                        About Us
+                    </a>
+                </li>
+
+                <li>
+                    <a href="treatments.html">
+                        Treatments
+                    </a>
+                </li>
+
+                <li>
+                    <a href="faqs.html">
+                        FAQs
+                    </a>
+                </li>
+
+                <li>
+                    <a href="contact.html">
+                        Contact
+                    </a>
+                </li>
+
+            </ul>
+
+
+            <a href="contact.html" class="appointment-btn">
+                Fix an Appointment
+            </a>
+
+        </nav>
+
+    </header>
+
+
+
+    <!-- =========================================
+         CONTACT / APPOINTMENT SECTION
+    ========================================== -->
+
+    <main>
+
+        <section class="contact-section">
+
+
+            <!-- Contact Information -->
+
+            <div class="contact-info">
+
+                <p class="section-tag">
+                    GET IN TOUCH
+                </p>
+
+                <h1>
+                    Book Your Dental Appointment
+                </h1>
+
+                <p>
+                    Have a question or want to schedule a visit?
+                    Send us your details and our clinic team can
+                    get in touch with you.
+                </p>
+
+
+                <div class="contact-details">
+
+                    <div class="contact-item">
+
+                        <span>
+                            📍
+                        </span>
+
+                        <div>
+
+                            <h3>
+                                Location
+                            </h3>
+
+                            <p>
+                                Hosur, Tamil Nadu
+                            </p>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="contact-item">
+
+                        <span>
+                            📞
+                        </span>
+
+                        <div>
+
+                            <h3>
+                                Phone
+                            </h3>
+
+                            <p>
+                                Contact the clinic for appointment details
+                            </p>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="contact-item">
+
+                        <span>
+                            ✉️
+                        </span>
+
+                        <div>
+
+                            <h3>
+                                Email
+                            </h3>
+
+                            <p>
+                                Contact us for more information
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- Lead Capture Form -->
+
+            <div class="contact-form-container">
+
+                <h2>
+                    Request an Appointment
+                </h2>
+
+                <p>
+                    Fill in your details below.
+                </p>
+
+
+                <form id="appointmentForm"
+      action="https://formspree.io/f/xzepwkwd"
+      method="POST">
+                    <!-- Name -->
+
+                    <div class="form-group">
+
+                        <label for="name">
+                            Full Name
+                        </label>
+
+                        <input
+                            type="text"
+                            id="name"
+                            name="name"
+                            placeholder="Enter your full name"
+                            required>
+
+                    </div>
+
+
+                    <!-- Email -->
+
+                    <div class="form-group">
+
+                        <label for="email">
+                            Email Address
+                        </label>
+
+                        <input
+                            type="email"
+                            id="email"
+                            name="email"
+                            placeholder="Enter your email address"
+                            required>
+
+                    </div>
+
+
+                    <!-- Phone -->
+
+                    <div class="form-group">
+
+                        <label for="phone">
+                            Phone Number
+                        </label>
+
+                        <input
+                            type="tel"
+                            id="phone"
+                            name="phone"
+                            placeholder="Enter your phone number"
+                            required>
+
+                    </div>
+
+
+                    <!-- Service -->
+
+                    <div class="form-group">
+
+                        <label for="service">
+                            Preferred Service
+                        </label>
+
+                        <select id="service" name="service" required>
+
+                            <option value="">
+                                Select a service
+                            </option>
+
+                            <option value="preventive">
+                                Preventive Care
+                            </option>
+
+                            <option value="cosmetic">
+                                Cosmetic Dentistry
+                            </option>
+
+                            <option value="orthodontics">
+                                Orthodontics
+                            </option>
+
+                            <option value="pediatric">
+                                Pediatric Dentistry
+                            </option>
+
+                            <option value="restorative">
+                                Restorative Dentistry
+                            </option>
+
+                            <option value="implants">
+                                Dental Implants
+                            </option>
+
+                        </select>
+
+                    </div>
+
+
+                    <!-- Message -->
+
+                    <div class="form-group">
+
+                        <label for="message">
+                            Message
+                        </label>
+
+                        <textarea
+                            id="message"
+                            name="message"
+                            rows="5"
+                            placeholder="Tell us how we can help you..."></textarea>
+
+                    </div>
+                    
+
+                    <!-- Submit Button -->
+
+                    <button
+                        type="submit"
+                        class="form-submit">
+
+                        Request an Appointment
+
+                    </button>
+
+
+                    <!-- Success Message -->
+
+                    <p
+                        id="form-message"
+                        class="form-message">
+                    </p>
+
+                </form>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+
+    <!-- =========================================
+         FOOTER
+    ========================================== -->
+
+    <footer>
+
+        <p>
+            © 2026 Sakthi Dental Clinic. All Rights Reserved.
+        </p>
+        <p>
+        <a href="privacy.html">Privacy Policy</a>
+    </p>
+
+    </footer>
+
+
+
+    <!-- JavaScript -->
+
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>

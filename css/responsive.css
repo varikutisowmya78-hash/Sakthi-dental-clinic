@@ -1,0 +1,269 @@
+/* =================================
+   TABLET RESPONSIVE DESIGN
+================================= */
+
+@media (max-width: 900px) {
+
+    /* Navbar */
+
+    .navbar {
+        flex-wrap: wrap;
+
+        justify-content: center;
+
+        gap: 15px;
+    }
+
+
+    .nav-links {
+        order: 3;
+
+        width: 100%;
+
+        justify-content: center;
+
+        flex-wrap: wrap;
+    }
+
+
+    /* Hero */
+
+    .hero {
+        grid-template-columns: 1fr;
+
+        text-align: center;
+
+        gap: 40px;
+
+        padding-top: 50px;
+    }
+
+
+    .hero-content {
+        max-width: 700px;
+
+        margin: 0 auto;
+    }
+
+
+    .hero-description {
+        margin-left: auto;
+
+        margin-right: auto;
+    }
+
+
+    .hero-buttons {
+        justify-content: center;
+    }
+
+
+    /* Why Choose Us */
+
+    .why-cards {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+
+    /* Treatments */
+
+    .treatment-cards {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+
+    /* Pricing */
+
+    .pricing-cards {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+
+    /* Testimonials */
+
+    .testimonial-cards {
+        grid-template-columns: 1fr;
+    }
+
+
+    /* Facilities */
+
+    .facility-cards {
+        grid-template-columns: 1fr;
+    }
+
+
+    /* Contact */
+
+    .contact-container {
+        grid-template-columns: 1fr;
+    }
+
+}
+
+
+
+/* =================================
+   MOBILE RESPONSIVE DESIGN
+================================= */
+
+@media (max-width: 600px) {
+
+    /* Navbar */
+
+    .navbar {
+        padding: 15px 20px;
+
+        gap: 15px;
+    }
+
+
+    .logo a {
+        font-size: 19px;
+    }
+
+
+    .nav-links {
+        gap: 12px;
+    }
+
+
+    .nav-links a {
+        font-size: 13px;
+    }
+
+
+    .appointment-btn {
+        padding: 10px 16px;
+
+        font-size: 13px;
+    }
+
+
+    /* Hero */
+
+    .hero {
+        padding: 50px 20px;
+
+        min-height: auto;
+    }
+
+
+    .hero h1 {
+        font-size: 36px;
+    }
+
+
+    .hero-description {
+        font-size: 16px;
+    }
+
+
+    .hero-buttons {
+        flex-direction: column;
+
+        width: 100%;
+    }
+
+
+    .primary-btn,
+    .secondary-btn {
+        width: 100%;
+
+        text-align: center;
+    }
+
+
+    .image-placeholder {
+        height: 320px;
+    }
+
+
+    .image-placeholder span {
+        font-size: 70px;
+    }
+
+
+    /* Section spacing */
+
+    .safe-hands,
+    .why-choose,
+    .treatments-section,
+    .pricing-section,
+    .testimonials-section,
+    .facilities-section,
+    .final-cta,
+    .contact-section {
+        padding: 60px 20px;
+    }
+
+
+    /* Section headings */
+
+    .safe-hands h2,
+    .section-heading h2 {
+        font-size: 30px;
+    }
+
+
+    /* Why Choose */
+
+    .why-cards {
+        grid-template-columns: 1fr;
+    }
+
+
+    /* Treatments */
+
+    .treatment-cards {
+        grid-template-columns: 1fr;
+    }
+
+
+    /* Pricing */
+
+    .pricing-cards {
+        grid-template-columns: 1fr;
+    }
+
+
+    /* Testimonials */
+
+    .testimonial-cards {
+        grid-template-columns: 1fr;
+    }
+
+
+    /* Facilities */
+
+    .facility-cards {
+        grid-template-columns: 1fr;
+    }
+
+
+    /* CTA */
+
+    .final-cta h2 {
+        font-size: 32px;
+    }
+
+
+    /* Contact */
+
+    .contact-intro h1 {
+        font-size: 34px;
+    }
+
+
+    .contact-info,
+    .contact-form-container {
+        padding: 25px 20px;
+    }
+
+
+    .contact-info h2,
+    .contact-form-container h2 {
+        font-size: 24px;
+    }
+
+}
